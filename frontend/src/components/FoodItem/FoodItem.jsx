@@ -5,6 +5,8 @@ import { assets } from '../../assets/assets'
 const FoodItem = ({id,name,price,description,image}) => {
 
   const [itemCount,setItemCount]=useState(0)
+
+  
   return (
     <div className='food-item'>
         <div className="food-item-img-container"> 
